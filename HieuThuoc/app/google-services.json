@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "238537456854",
+    "firebase_url": "https://hieuthuoc-b2f41.firebaseio.com",
+    "project_id": "hieuthuoc-b2f41",
+    "storage_bucket": "hieuthuoc-b2f41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238537456854:android:7e9d2e29a7ffc53e",
+        "android_client_info": {
+          "package_name": "com.example.chaut.hieuthuoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238537456854-qumbdfeiljeb0kldllmhblkecoveg5dm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chaut.hieuthuoc",
+            "certificate_hash": "6b699980eeb70a24cc25621cdbba238ac85049f1"
+          }
+        },
+        {
+          "client_id": "238537456854-ldacb3o6k50m0eija3gg3158gjf767b2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzcf3v6o8fD_CNobTMaU796qHlPls6mjA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238537456854-ldacb3o6k50m0eija3gg3158gjf767b2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

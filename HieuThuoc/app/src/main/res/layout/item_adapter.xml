@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:padding="15dp"
+    >
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_item_story"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/v_bookmark"
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary" />
+
+            <ImageView
+                android:id="@+id/iv_image"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="@dimen/item_padding"
+                android:scaleType="centerCrop"
+                android:background="@drawable/clinic"
+                />
+
+            <TextView
+                android:id="@+id/tv_ten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/item_padding"
+                android:layout_marginTop="@dimen/item_padding"
+                android:layout_toLeftOf="@id/iv_image"
+                android:layout_toRightOf="@+id/v_bookmark"
+                android:text="title"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_diachi"
+                android:maxLines="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_ten"
+                android:layout_marginStart="@dimen/item_padding"
+                android:layout_toLeftOf="@id/iv_image"
+                android:layout_toRightOf="@+id/v_bookmark"
+                android:text="author" />
+
+            <TextView
+                android:id="@+id/tv_chuyenkhoa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_diachi"
+                android:layout_marginStart="@dimen/item_padding"
+                android:layout_toLeftOf="@id/iv_image"
+                android:layout_toRightOf="@+id/v_bookmark"
+                android:text="chuyekhoa" />
+
+            <TextView
+                android:id="@+id/tv_bacsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_chuyenkhoa"
+                android:layout_marginStart="@dimen/item_padding"
+                android:layout_toLeftOf="@id/iv_image"
+                android:layout_toRightOf="@+id/v_bookmark"
+                android:text="chuyekhoa" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
